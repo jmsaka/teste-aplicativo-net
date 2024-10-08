@@ -1,0 +1,19 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/backend/.vs
+/backend/Clinica.Api/.vs
+/backend/Clinica.Api/bin/Debug/net8.0
+/backend/Clinica.Api/bin/Debug/net8.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+/backend/Clinica.Api/obj
+/backend/Clinica.Api/Clinica.Api.csproj.user
+/backend/Clinica.Domain/bin/Debug/net8.0
+/backend/Clinica.Domain/obj
+/backend/Clinica.Infrastructure/bin/Debug/net8.0
+/backend/Clinica.Infrastructure/obj
+/backend/Clinica.Tests/bin
+/backend/Clinica.Tests/obj
+/backend/Visual Studio 2022/Visualizers
+/backend/Clinica.Api.csproj.user
+/frontend/package-lock.json
