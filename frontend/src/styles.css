@@ -1,0 +1,175 @@
+/* Estilo Global */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.headerpage {
+  padding: 20px;
+  margin-top: 80px; /* Adiciona espaçamento no topo para o menu fixo */
+}
+
+/* Menu Horizontal */
+.menu-horizontal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Estilo do Cabeçalho */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #155724;
+  margin: 0;
+}
+
+p {
+  color: #155724;
+  line-height: 1.5;
+}
+
+/* Estilos da Tabela */
+.table {
+  width: 70%; /* Limita a largura da tabela a 70% da página */
+  margin: 20px auto; /* Centraliza a tabela horizontalmente */
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #a8d8b9;
+  color: #3d535e;
+  font-weight: bold;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2;
+}
+
+.table .actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.table .actions i {
+  cursor: pointer;
+  font-size: 18px; /* Ajusta o tamanho dos ícones */
+  color: #007bff; /* Cor dos ícones */
+}
+
+.table .actions i:hover {
+  color: #0056b3; /* Cor ao passar o mouse nos ícones */
+}
+
+/* Reduz a largura da coluna de ações */
+.table th.actions,
+.table td.actions {
+  width: 100px; /* Define largura menor para a coluna de ações */
+}
+
+/* Estilos dos Botões com Ícones */
+.btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn i {
+  margin-right: 5px; /* Adiciona espaçamento entre o ícone e o texto */
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Estilos do Modal */
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(128, 128, 128, 0.8);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  pointer-events: all;
+}
+
+.ReactModal__Content {
+  padding: 20px;
+  border-radius: 12px;
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  z-index: 1000;
+  border: 2px solid #155724;
+}
+
+/* Estilo dos Campos do Modal */
+.modal-input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Estilos dos Botões do Modal */
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+
+.main-card {
+  /* Estilo para o card principal */
+  font-weight: bold;
+}
+
+.small-card {
+  /* Estilo para os pequenos cards */
+  font-weight: bold;
+}

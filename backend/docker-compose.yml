@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  sql-server-db:
+    container_name: sql-server-db
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: 'SuperPassword@24'
+      ACCEPT_EULA: "Y"
+    volumes:
+      - ./packages/scripts:/scripts  # Certifique-se de que o script init.sql está neste diretório
+    restart: always
+    networks:
+      - app-network
+networks:
+  app-network:
+    driver: bridge
