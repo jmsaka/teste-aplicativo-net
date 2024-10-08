@@ -284,18 +284,20 @@ Para não ficar muito estendido, o teste foi reduzido a Especialidade na API e n
 - API - Evidências
 
 <video width="800" height="600" controls>
-  <source src="assets/API.mp4" type="video/mp4">
+  <source src="https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/API.mp4" type="video/mp4">
 </video>
+https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/API.mp4
 
-[Se o seu navegador não suporta a tag de vídeo. Clique aqui para baixar](assets/API.mp4)
+[Baixar vídeo](https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/API.mp4)
+
 
 - Front - Evidências
 
 <video width="800" height="600" controls>
-  <source src="assets/App.mp4" type="video/mp4">
+  <source src="[assets/App.mp4](https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/App.mp4)" type="video/mp4">
 </video>
 
-[Se o seu navegador não suporta a tag de vídeo. Clique aqui para baixar](assets/App.mp4)
+[Baixar vídeo](https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/App.mp4)
 
 ## Considerações do Autor
 
