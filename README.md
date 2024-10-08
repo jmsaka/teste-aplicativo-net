@@ -286,7 +286,6 @@ Para não ficar muito estendido, o teste foi reduzido a Especialidade na API e n
 <video width="800" height="600" controls>
   <source src="https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/API.mp4" type="video/mp4">
 </video>
-https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/API.mp4
 
 [Baixar vídeo](https://github.com/jmsaka/teste-aplicativo-net/raw/refs/heads/main/assets/API.mp4)
 
