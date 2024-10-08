@@ -34,6 +34,21 @@ Apesar de se tratar de uma POC, alguns desafios foram encontrados:
 - Vamos logo ao que interessa!!!
 ```
 
+## Sobre as aplicações
+
+Tanto a API como o Front não exigem nenhum tipo de requisito especial para rodar.
+
+## Composição da estrutura da Api
+
+- .NET 8.0
+- SQL Server
+- CQRS
+- Mediator
+- AutoMapper
+- IoC
+- Swagger
+- Unit Tests (Especialidade)
+
 ## Preparação do Banco de Dados
 
 ### Carregando a instância do SQL Server
@@ -243,8 +258,47 @@ INSERT INTO [dbo].[Triagens]
      VALUES
            ('Febre', '14/8', 4.0, 3.0, 5, 14)
 GO
+```
 
 Esses scripts são a estrutura para o seguinte diagrama de fluxo de dados, DFD:
 
+![Diagrama DFD](assets/DFD.drawio.png)
 
+Abaixo temos a representação mais específica do modelo MER:
 
+![Diagrama MER](assets/DER.png)
+
+E também a representação do Diagrama de Classes:
+
+![UML - Classes](assets/UML_Classes.png)
+
+## Evidências de Execução
+
+Após o desenvolvimento, foi realizado alguns testes de execução.
+Para não ficar muito estendido, o teste foi reduzido a Especialidade na API e no Front foi realizado o teste até a Triagem.
+
+```diff
+- Observação: por conta do notebook utilizado, os testes a partir da Triagem não foram bem sucedidos porque a máquina estava travando, uma vez que não é uma máquina apropriada para rodar os testes no nível que era exigido.
+```
+
+- API - Evidências
+
+<video width="800" height="600" controls>
+  <source src="assets/API.mp4" type="video/mp4">
+</video>
+
+[Se o seu navegador não suporta a tag de vídeo. Clique aqui para baixar](assets/API.mp4)
+
+- Front - Evidências
+
+<video width="800" height="600" controls>
+  <source src="assets/App.mp4" type="video/mp4">
+</video>
+
+[Se o seu navegador não suporta a tag de vídeo. Clique aqui para baixar](assets/App.mp4)
+
+## Considerações do Autor
+
+- Para desenvolvimento de toda a estrutura e documentos, utilizei exta a tarde após as 16h até as 22h, sábado, após as 13h, e segunda o dia todo.
+- Não foi possível ficar diretamente focado por conta de compromissos pessoais e de família.
+- A máquina que estou usando nesse momento não ajuda muito em termos de desempenho e isso dificultou muito o desenvolvimento uma vez que ficava travando. (para isso, já estou providenciando uma máquina que atenda)
