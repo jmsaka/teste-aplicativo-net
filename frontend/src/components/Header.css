@@ -1,0 +1,16 @@
+.navbar-custom {
+    background-color: #a8d8b9; /* Verde pastel */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para efeito 3D */
+    padding-left: 20px; /* Deslocando todo o menu para a direita */
+  }
+  
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #2c3e50; /* Cor do texto */
+    margin-right: 20px; /* Adicionando espaçamento à direita */
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #1abc9c; /* Cor do texto ao passar o mouse */
+  }
+  

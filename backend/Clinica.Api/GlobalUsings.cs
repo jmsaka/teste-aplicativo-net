@@ -1,0 +1,15 @@
+﻿global using Clinica.Api.Controllers.Base;
+global using Clinica.Api.IoC;
+global using Clinica.Domain.Commands;
+global using Clinica.Domain.Contracts;
+global using Clinica.Domain.DTO;
+global using Clinica.Domain.Entities;
+global using Clinica.Domain.Interfaces;
+global using Clinica.Domain.Queries;
+global using Clinica.Infrastructure.Datas;
+global using Clinica.Infrastructure.Repositories;
+global using MediatR;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.OpenApi.Models;
+global using Clinica.Domain.Profiles;
