@@ -300,6 +300,6 @@ Para não ficar muito estendido, o teste foi reduzido a Especialidade na API e n
 
 ## Considerações do Autor
 
-- Para desenvolvimento de toda a estrutura e documentos, utilizei exta a tarde após as 16h até as 22h, sábado, após as 13h, e segunda o dia todo.
+- Para desenvolvimento de toda a estrutura e documentos, utilizei sexta a tarde após as 16h até às 22h, sábado, após às 13h até anoitecer, e segunda o dia todo.
 - Não foi possível ficar diretamente focado por conta de compromissos pessoais e de família.
-- A máquina que estou usando nesse momento não ajuda muito em termos de desempenho e isso dificultou muito o desenvolvimento uma vez que ficava travando. (para isso, já estou providenciando uma máquina que atenda)
+- A máquina que estou usando neste momento não ajuda muito em termos de desempenho e isso dificultou muito o desenvolvimento uma vez que ficava travando. (para isso, já estou providenciando uma máquina que atenda)
