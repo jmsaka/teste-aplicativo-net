@@ -19,8 +19,8 @@ O teste possui duas aplicações:
 
 ## Estrutura do Projeto
 
-- **Clinica.Api**: A aplicação principal da API. (pasta backend)
-- **clinica**: Frotend para interação do usuário com a API. (pasta frontend)
+- **Clinica.Api**: A aplicação principal da API. ##(pasta backend)##
+- **clinica**: Frotend para interação do usuário com a API. ##(pasta frontend)##
 
 ## Considerações do Autor
 
