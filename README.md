@@ -19,8 +19,19 @@ O teste possui duas aplicações:
 
 ## Estrutura do Projeto
 
-- **Clinica.Api**: A aplicação principal da API. ##(pasta backend)##
-- **clinica**: Frotend para interação do usuário com a API. ##(pasta frontend)##
+- **Clinica.Api**: A aplicação principal da API. (pasta backend)
+- **clinica**: Frotend para interação do usuário com a API. (pasta frontend)
+
+## Composição da estrutura da Api
+
+- .NET 8.0
+- SQL Server
+- CQRS
+- Mediator
+- AutoMapper
+- IoC
+- Swagger
+- Unit Tests (Especialidade)
 
 ## Considerações do Autor
 
@@ -37,17 +48,6 @@ Apesar de se tratar de uma POC, alguns desafios foram encontrados:
 ## Sobre as aplicações
 
 Tanto a API como o Front não exigem nenhum tipo de requisito especial para rodar.
-
-## Composição da estrutura da Api
-
-- .NET 8.0
-- SQL Server
-- CQRS
-- Mediator
-- AutoMapper
-- IoC
-- Swagger
-- Unit Tests (Especialidade)
 
 ## Preparação do Banco de Dados
 
